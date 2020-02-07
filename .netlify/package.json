@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "node index.js"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+[build]
+  base = ".netlify"
+  publish = "dist/"
+  command = "npm run build"
+[build.environment]
+  NPM_CONFIG_USERCONFIG = "/opt/build/repo/.npmrc"
+[build.processing]
+  skip_processing = true
