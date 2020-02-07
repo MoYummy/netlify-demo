@@ -1,0 +1,18 @@
+{
+  "name": "@moyummy/netlify-custom-lib",
+  "version": "0.0.1",
+  "description": "Netlify Demo Custom Libary",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoYummy/netlify-demo.git"
+  },
+  "author": "MoYummy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoYummy/netlify-demo/issues"
+  },
+  "homepage": "https://github.com/MoYummy/netlify-demo#readme",
+  "keywords": [],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
