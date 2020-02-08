@@ -1,0 +1,14 @@
+name: netlify
+on:
+  push:
+    branches:
+      - master
+jobs:
+  netlify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Merge to Branch
+        uses: ./.github/actions/merge-to-branch
+        with:
+          branch: netlify
