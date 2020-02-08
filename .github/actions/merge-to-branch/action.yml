@@ -1,0 +1,14 @@
+name: merge-to-branch
+description: Merge to Branch
+author: MoYummy
+inputs:
+  commit:
+    required: false
+    description: 'From Commit'
+    default: ${{ github.sha }}
+  branch:
+    required: true
+    description: 'To Branch'
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
