@@ -1,8 +1,5 @@
 name: netlify
 on:
-  pull_request:
-    branches-ignore:
-      - netlify
   push:
     branches:
       - master
