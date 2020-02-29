@@ -1,6 +1,7 @@
 [build]
   base = ".netlify"
   publish = "dist/"
+  ignore = "git diff --quiet HEAD^ HEAD"
   command = "npm run build"
 [build.environment]
   NPM_CONFIG_USERCONFIG = "/opt/build/repo/.npmrc"
