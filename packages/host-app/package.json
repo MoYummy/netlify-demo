@@ -18,8 +18,8 @@
   "dependencies": {
     "@babel/runtime": "^7.8.4",
     "@moyummy/netlify-custom-lib": "0.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
