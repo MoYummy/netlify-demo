@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/MoYummy/netlify-demo#readme",
   "dependencies": {
-    "@babel/runtime": "^7.8.4",
+    "@babel/runtime": "^7.8.7",
     "@moyummy/netlify-custom-lib": "0.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
